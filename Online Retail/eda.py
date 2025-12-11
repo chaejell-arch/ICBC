@@ -51,6 +51,21 @@ df['TotalPrice'] = df['Quantity'] * df['UnitPrice']
 
 # --- EDA 시작 ---
 report.append("# Online Retail 데이터 탐색적 데이터 분석(EDA) 보고서\n")
+report.append("## 분석 개요\n")
+report.append("### 분석 목적")
+report.append("Online Retail 데이터를 통해 고객 구매 패턴, 매출 추이, 상품 성과를 분석하고 비즈니스 인사이트를 도출합니다.\n")
+report.append("### 분석 방법론")
+report.append("- **데이터 전처리**: 결측치 제거, 취소 주문(InvoiceNo가 'C'로 시작) 제외, 음수 가격/수량 제거")
+report.append("- **기술 통계 분석**: pandas를 활용한 기본 통계량 산출")
+report.append("- **시각화**: matplotlib를 사용한 다양한 차트 생성 (막대그래프, 선그래프, 산점도, 히스토그램)")
+report.append("- **RFM 분석**: Recency(최근성), Frequency(빈도), Monetary(금액) 기준 고객 세분화")
+report.append("  - R: 마지막 구매일로부터 경과 일수 (4분위수, 낮을수록 높은 점수)")
+report.append("  - F: 구매 빈도 (4분위수, 높을수록 높은 점수)")
+report.append("  - M: 총 구매 금액 (4분위수, 높을수록 높은 점수)")
+report.append("  - 세그먼트: RFM 점수 조합으로 7개 그룹 분류 (최우수 고객, 충성 고객, 잠재적 충성 고객, 놓치면 안되는 고객, 고액 지출 고객, 이탈 우려 고객, 일반 고객)")
+report.append("- **ARPU 분석**: 월별 총매출 ÷ 구매고객수로 사용자당 평균 매출 계산\n")
+report.append("### 사용 도구")
+report.append("- Python 3.x, pandas, numpy, matplotlib, koreanize_matplotlib\n")
 
 # 1.1 데이터 기본 정보
 report.append("## 1. 데이터 기본 정보\n")
