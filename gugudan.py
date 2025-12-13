@@ -7,3 +7,5 @@ for i in range(2, 10):
         print(f"{i} × {j} = {i * j}")
         python gugudan.py
         
+
+여기부터는 버전관리를 합니다。
