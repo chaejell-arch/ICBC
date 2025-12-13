@@ -1,4 +1,4 @@
-# Online Retail 데이터 탐색적 데이터 분석(EDA) 보고서
+# 온라인 리테일 Online Retail 데이터 탐색적 데이터 분석(EDA) 보고서
 
 ## 분석 개요
 
