@@ -1,4 +1,4 @@
-# Streamlit 대시보드 생성 작업지시서
+# 스트림릿 Streamlit 대시보드 생성 작업지시서
 
 ## 목표
 `Online Retail/eda.py` 파일을 기반으로 Streamlit 대시보드를 생성하여 온라인 소매 데이터에 대한 탐색적 데이터 분석(EDA) 결과를 상호작용 가능한 형태로 시각화합니다.
