@@ -1,0 +1,25 @@
+## 데이터셋 위치
+https://www.kamp-ai.kr/aidataDetail?AI_SEARCH=%EB%B0%B0%ED%84%B0%EB%A6%AC&page=1&DATASET_SEQ=58&DISPLAY_MODE_SEL=CARD&EQUIP_SEL=&GUBUN_SEL=&FILE_TYPE_SEL=&WDATE_SEL=
+Dataset_battery 폴더 안에 다운로드 받아서 판다스로 로드할 것 
+
+## 한글폰트는 다음 라이브러리를 임포틀해서 사용할 것 
+koreanize-matplotlib
+seaborn 의 style 설정은 사용하지 말 것!
+
+## 관련 파일 저장 위치
+모든 작업 결과는 Dataset_battery 폴더 안에만 생성 할 것
+데이터시각화 내용도 Dataset_battery 폴더 안에 생성 할 것
+
+## 기본 EDA 진행
+- 데이터 로드하고 확인하는 .py 코드 작성할 것
+- 모든 EDA 내용은 마크다운 파일로 출력하도록 할 것 
+- 막대그래프로 시각화 한 내용은 하단에 교차표나 피봇테이블로 해당 내용을 꼭 출력할 것 
+- 시각화 내용도 마크다운 파일에서 볼 수 있게 하고 저장된 파일 경로를 지켜서 작성할 것 
+- 데이터 시각화시 10개 이상 그래프 시각화 하고 해당 내용에 대해서도 자세히 마크다운 문서에 작성할 것 
+- EDA 내용은 마크다운 파일 1개에 모두 정리해서 작성할 수 있게 할 것 
+- 마크다운에서 보여지는 이미지 경로는 Dataset_battery 하위에 파일명을 지정해서 가져오게 할 것 
+
+## 가상환경
+.venv 해당 경로에 있는 가상환경만 사용할 것
+
+## Test를 해보고 있습니다.
